@@ -18,7 +18,7 @@ export class AppComponent {
   }
 
   getPlatformValue() {
-    this.rValue = this.rootService.getValue();
+    this.pValue = this.platformService.getValue();
   }
 
 
@@ -29,6 +29,6 @@ export class AppComponent {
   }
 
   getRootValue() {
-    this.pValue = this.platformService.getValue();
+    this.rValue = this.rootService.getValue();
   }
 }
